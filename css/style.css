@@ -486,7 +486,7 @@ h6 {
           flex-direction: column;
   gap: 0.9375rem;
   padding-top: 3.125rem;
-  padding-bottom: 4.375rem;
+  padding-bottom: 3.125rem;
 }
 
 .footer__copy {
@@ -1910,6 +1910,13 @@ textarea.form__input {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 29.99875em) {
+  .footer__container {
+    padding-top: 2.5rem;
+    padding-bottom: 4.375rem;
   }
 }
 
